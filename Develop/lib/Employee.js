@@ -1,10 +1,9 @@
 // TODO: Write code to define and export the Employee class
 class   Employee {
-    constructor (name, id, email, role) {
+    constructor (name, id, email) {
         this.name = name;
         this.id = id;
         this.email = email;
-        this.role = "Employee"
         
     }
     getName()   {
@@ -20,7 +19,7 @@ class   Employee {
 
     }
     getRole()  {
-        return this.role
+        return "Employee";
 
     }
 
@@ -29,7 +28,6 @@ class   Employee {
         console.log(`Employee name is: ${this.name}`);
         console.log(`Employee ID is: ${this.id}`);
         console.log(`Employee e-mail is: ${this.email}`);
-        console.log(`Employee role : ${this.roll}`);
 
     };
 
